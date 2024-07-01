@@ -1,5 +1,8 @@
 import { useState } from "react";
 import "./App.css";
+import AddPersonalDetails from "./components/personal-info/PersonalDetails"
+import AddEducationSection from "./components/education/AddEducationSection";
+import AddExpereinceSection from "./components/experience/AddExperienceSection";
 
 function App() {
   const [personalInfo, setPersonalInfo] = useState(exampleData.personalInfo);
